@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #E3E6AC;
+    color: black;
+    text-decoration: none;
+}
+
+.locuras {
+    display: flex;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+}
+
+.nav {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    font-size: 23px;
+    margin-left: 20px;
+}
+
+#logo {
+    position: absolute;
+    top: -6px;
+    width: 6%;
+    left: 80px;
+    top: 5px;
+}
+
+#logo2 {
+    position: absolute;
+    top: -6px;
+    width: 6%;
+    top: 5px;
+    right: 60px;
+}
+
+.chocolate {
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 1px solid black;
+    width: 350px;
+    margin-top: 30px;
+}
+
+
+#gato-h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#chocolate-img {
+    width: 300px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+#nav-element:hover {
+    transform: scale(1.1);
+    transition: 0.4s all;
+}
+
+.noticias {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+
+#gato-titulo {
+    font-size: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: inherit;
+    font-weight: bold;
+    margin: 13px 10px;
+}
+
+#gato-texto {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    margin: 30px 80px;
+}
+
+#gato-copete {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    margin: 20px 10px;
+}
+
+#gato-img {
+    width: 38%;
+    
+}
+
+.gato-div-img {
+    display: flex;
+    justify-content: center;
+}
+
+
+.container-sesion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+/* ACA ES GPT */
+
+#input-sesion {
+    text-align: center;
+    line-height: 2;
+    margin-top: 20px;
+    width: 80%;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f2f2f2;
+    margin-bottom: 30px;
+    }
+    
+    #p-sesion {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    background-color: white;
+    }
+    
+    .submit3 {
+    width: 100%;
+    background-color: #3498db;
+    color: #312d2d;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    height: 60px;
+    }
+    
+    .submit3:hover {
+    transform: scale(0.98);
+    }
+    
+    .container-sesion {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin-top: 80px;
+    }
+    
+  
+    
+    .locuras {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    }
+    
+   
+    
+    
+    
+    
